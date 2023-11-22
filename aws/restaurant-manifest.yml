@@ -35,7 +35,7 @@ spec:
               valueFrom:
                 configMapKeyRef:
                   name: configmap
-                  key: restaurantdb_url
+                  key: restaurantdb_
 ---
 apiVersion: v1
 kind: Service
